@@ -44,7 +44,7 @@ console.log(sma([1, 2, 3, 4, 5, 6, 7, 8, 9], 4));
 
 ## Attribution
 
-Thanks to @jonschlinkert for simplifying the algorithm. For more moving average modules checkout the [related projects](#related-projects) below.
+Thanks to [@jonschlinkert](https://github.com/jonschlinkert) for simplifying the algorithm. For more moving average modules checkout the [related projects](#related-projects) below.
 
 ## About
 
