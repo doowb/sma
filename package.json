@@ -20,6 +20,27 @@
     "test": "mocha"
   },
   "keywords": [
+    "arr",
+    "arr-average",
+    "arr-avg",
+    "array",
+    "array-average",
+    "array-avg",
+    "average",
+    "average-arr",
+    "avg",
+    "avg-arr",
+    "avg-array",
+    "floating",
+    "moving",
+    "rolling",
+    "simple",
+    "simple-floating-average",
+    "simple-floating-avg",
+    "simple-moving-average",
+    "simple-moving-avg",
+    "simple-rolling-average",
+    "simple-rolling-avg",
     "sma"
   ],
   "devDependencies": {
