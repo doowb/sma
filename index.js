@@ -32,7 +32,7 @@ function sma(arr, range, format) {
   var len = arr.length + 1;
   var idx = num - 1;
   while (++idx < len) {
-    res.push(fn(avg(arr, idx, idx < num ? idx : num)));
+    res.push(fn(avg(arr, idx, num)));
   }
   return res;
 }
