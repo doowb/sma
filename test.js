@@ -20,8 +20,13 @@ describe('sma', function() {
     }
   });
 
-  it('should calculate the simple moving average for an array of elements', function() {
+  it('should calculate the simple moving average for an array of integers', function() {
     assert.deepEqual(sma([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 3), [2, 3, 4, 5, 6, 7, 8, 9]);
+  });
+
+  it('should calculate the simple moving average for an array of decimals', function() {
+    var expected = ['2.20', '3.30', '4.40', '5.50', '6.60', '7.70', '8.80', '9.60'];
+    assert.deepEqual(sma([1.1, 2.2, 3.3, 4.4, 5.5, 6.6, 7.7, 8.8, 9.9, 10.10], 3), expected);
   });
 
   it('should calculate the average for an entire array when range is not passed.', function() {

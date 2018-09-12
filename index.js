@@ -63,7 +63,7 @@ function avg(arr, idx, range) {
 function sum(arr) {
   var len = arr.length;
   var num = 0;
-  while (len--) num += Number(arr[len]) >> 0;
+  while (len--) num += Number(arr[len]);
   return num;
 }
 
