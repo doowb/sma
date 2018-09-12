@@ -1,7 +1,7 @@
 {
   "name": "sma",
   "description": "Calculate the simple moving average of an array.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/doowb/sma",
   "author": "Brian Woodward (https://doowb.com)",
   "repository": "doowb/sma",
